@@ -1,0 +1,114 @@
+*{
+    margin: 0 auto;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body { 
+    background-color: #1A1B21;
+    color: #FFFFFF;
+    width: 318px; 
+}
+a{
+    color: #FFFFFF;
+}
+h1{
+    margin: 0;
+}
+
+
+
+
+
+
+
+#Info1{
+   margin-top: 20px;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+#Info1>h1{
+    font-size: 35px;
+}
+#Info1>h3{
+    font-size: 15px;
+    color: #9CC3DD;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+
+#Info2{
+       display: flex;
+       justify-content: space-around
+}
+#Info2>button{
+    display: flex;
+    width: 115px;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid #D1D5DB;
+    margin-bottom: 20px;
+}
+#Info2>button + button{
+   padding: 10px 12px;
+   background-color: #5093E2;
+   color: #FFFFFF
+}
+#Info2>button + button:hover{
+       background-color: #5697e3;
+}
+
+
+
+
+.description{
+   font-size: 0.9rem;
+   height: 150px;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: space-around;
+}
+.description>p{
+    color: rgba(220, 220, 220, 1);
+}
+.description_2{
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+
+
+
+footer{
+ background-color: #161619; 
+ padding: 0 10%;   
+}
+.socials{
+    height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.socials> button{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #918E9B;
+    border-radius: 5px
+}
+
+button:hover{
+ background-color: #FFFFFF;
+}
+
+    
+
+
+
