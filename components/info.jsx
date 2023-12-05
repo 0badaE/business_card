@@ -3,7 +3,7 @@ import React from "react"
 function Info(){
     return(
        <>
-            <a href="https://ibb.co/kSphnt3"><img src="https://i.ibb.co/x7yMvNm/PXL-20220625-190646148-PORTRAIT-2.jpg" alt="PXL-20220625-190646148-PORTRAIT-2" border="0" /></a>
+            <a href="https://ibb.co/kSphnt3"><img src="https://i.ibb.co/x7yMvNm/PXL-20220625-190646148-PORTRAIT-2.jpg" alt="PXL-20220625-190646148-PORTRAIT-2" border="0" width="318px" /></a>
             <section id="Info1">
                  <h1> Obada Erfan </h1>
                  <h3> Frontend Developer </h3>
